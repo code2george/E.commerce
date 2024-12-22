@@ -1,0 +1,32 @@
+
+body{
+    background-color:rgb(39, 31, 31);
+}
+.rating {
+    font-size:24px; /* Taille des étoiles */
+}
+
+.star {
+    color: #f8d64e; /* Couleur des étoiles (jaune dans cet exemple) */
+    margin-right: 5px; /* Espacement entre les étoiles */
+}
+
+
+
+nav{
+    height: 100px;
+    border: 1px solid rgb(30, 34, 36);
+    border-radius: 5px;
+
+}
+
+section{
+    margin-top: 100px;
+    background-color: rgb(38, 55, 58);
+    border: 1px solid rosybrown;
+    border-radius: 5px;
+}
+
+.col{
+    background-color: azure;
+}

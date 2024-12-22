@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" media="screen">
+
+
+</head>
+<body>
+  <header>
+
+  </header>
+
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-secondary fixed-top">
+      <div class="container-fluid">
+        <!-- Logo du site -->
+        <a class="navbar-brand" href="#">
+          <img src="images/Tech.Express.png" alt="Logo" height="80" width="150" class="d-inline-block align-text-top"></a>
+        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+          <!-- Menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="#">Boutique</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="#">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="#contact">Contact</a>
+            </li>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catalogues
+              </a>
+            
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="#outils">Accéssoires Technologique</a></li>
+                <li><a class="dropdown-item " href="#obj">Object connecter</a></li>
+                <li><a class="dropdown-item " href="#tous">Photos & caméscopes</a></li>
+                <li><a class="dropdown-item " href="#TV">Television</a></li>
+                <li><a class="dropdown-item " href="#telepor">Téléphone portable</a></li>
+                <li><a class="dropdown-item " href="#PC">Ordinateur PC</a></li>
+                <li><a class="dropdown-item " href="#ecran">Ecran</a></li>
+              </ul>
+            
+            </div>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="panier.html">Panier</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-light" href="#"><i class="bi bi-cart3"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg> <!-- Icône de panier d'achat --></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="index1.html">Se connecter</a>
+            </li>
+          </ul>
+          <!-- Barre de recherche -->
+          <form class="d-flex" role="search">
+            <input class="form-control wh-100 me-2" type="search" placeholder="Rechercher" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Recherche</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+    <!-- Menu scroll catalogue -->
+  
+    <section id="all">
+
+      
+      <div id="tous"> 
+        <h3><a href="#tous">Photos & Caméscopes</a></h3><br>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Appareil-photo1.jpg" class="card-img-top" alt="Appareil photo">
+            <div class="card-body">
+              <h5 class="card-title">Caméra d'action Bluefin C-Scape 4K, Résolution vidéo et Photo HD 1080p, Lentille Fish Eye 170 degrés, Etanche jusqu'à 30m, Écran LCD, Connexion Wi-FI, Piles Rechargeables</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:249,00€</p>
+              <i class="bi bi-heart" ></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+              </svg> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart "></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" >
+            <img src="images/Appareil_photo.jpg" class="card-img-top" alt="Appareil photo">
+            <div class="card-body">
+              <h5 class="card-title">Exprotrek Action Camera 4K 30fps Ultra HD, Caméra d'action 40 m 100 Pieds étanche WiFi Ultra Grand Angle 170°, télécommande, 2 Batteries et kit d'accessoires pour Casque</h5>
+              <p class="card-text">Plus de 50 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:229,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/812fzPFyErL._AC_SX425_.jpg" class="card-img-top" alt="Appareil photo">
+            <div class="card-body">
+              <h5 class="card-title">Appareil Photo numérique Etanche 4K 56MP Autofocus Caméra sous-Marine Carte mémoire 32G Selfie Double écrans 11FT 16X Zoom Appareil Photo Etanche</h5>
+              <p class="card-text">Plus de 100 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:200,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Appareil_photo.jpg" class="card-img-top" alt="Appareil photo">
+            <div class="card-body">
+              <h5 class="card-title">Exprotrek Action Camera 4K 30fps Ultra HD, Caméra d'action 40 m 100 Pieds étanche WiFi Ultra Grand Angle 170°, télécommande, 2 Batteries et kit d'accessoires pour Casque</h5>
+              <p class="card-text">Plus de 50 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:129,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Appareil_photo4.webp" class="card-img-top" alt="Appareil photo">
+            <div class="card-body">
+              <h5 class="card-title">Caméra étanche Full HD 2,7 K 48 MP  Appareil Photo numérique étanche avec retardateur et Zoom numérique 16X Bleu</h5>
+              <p class="card-text">Plus de 100 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:199,10€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+      </div><br>
+      
+
+      <!-- Object connecter -->
+      
+      <div id="obj">
+        <h3><a href="#obj">Objets connectés⌚</a></h3><br>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Montre_connect.jpg" class="card-img-top" alt="Montre connecté">
+            <div class="card-body">
+              <h5 class="card-title">Montres connectées, Écran FullView avec Bords Ultra-Fins, GPS, Appels Bluetooth</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:299,90€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart "></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" >
+            <img src="images/Montre_connect1.jpg" class="card-img-top" alt="Montre connecté" >
+            <div class="card-body">
+              <h5 class="card-title">Ticwatch Pro 5 Enduro Montre connectée pour Hommes</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:229,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Montre_connect5.jpg" class="card-img-top" alt="Montre connecté">
+            <div class="card-body">
+              <h5 class="card-title">COROS Pace 2 Montre GPS de Sport, Cardiofréquencemètre, 20 Jours Batterie, Baromètre, Légère, Strava, Plan d'entraînement, Navigation, Suivi du Sommeil, Vélo, Course à Pied, Natation-Silicone Marine</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:100.99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Montre_connect2.jpg" class="card-img-top" alt="Montre connectée">
+            <div class="card-body">
+              <h5 class="card-title">HUAWEI Montre Intelligente Watch GT 3 42 mm, Montre de Sport</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:209,99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Montre_connect3.jpg" class="card-img-top" alt="Montre connecté">
+            <div class="card-body">
+              <h5 class="card-title">Fitbit by Google Charge 6 Bracelet d'activité avec Un abonnement de 6 Mois à Fitbit Premium Inclus, 7 Jours d'autonomie de Batterie, Google Wallet et Google Maps</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:399,19€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Montre_connect4.jpg" class="card-img-top" alt="Montre connecté">
+            <div class="card-body">
+              <h5 class="card-title">Polar Ignite - Ignite 3 modèle, Montre Fitness GPS pour Femmes - Montre Connectée Sport pour Hommes, fréquence Cardiaque, Suivi d'Activité pour Le Fitness, Entraînement - Montre Calories Dépensées</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:399,09€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <!-- Ecran -->
+
+      <div id="ecran TV">
+        <h3><a href="#ecran TV">Ecran & télevision</a></h3><br>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/TV_chiq.jpg" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">Écran FullView avec Bords Ultra-Fins, GPS, Appels Bluetooth</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:299,90€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart "></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" >
+            <img src="images/TV_nokia.jpg" class="card-img-top" alt="Ecran & Télévision" >
+            <div class="card-body">
+              <h5 class="card-title">Google TV Nokia</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:229,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/television_chiq.webp" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">TV CHIQ android 11 HDR10</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:100.99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Television_samsung.webp" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">Télévision samsung QLED 20 pouce</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:209,99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Television_thomson.webp" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">Télévision THOMSON 24"HD</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:399,19€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div><br>
+      <div id="obj">
+        <h3><a href="#tous">Ecran & télevision</a></h3><br>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/TV_chiq.jpg" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">Écran FullView avec Bords Ultra-Fins, GPS, Appels Bluetooth</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:299,90€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart "></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" >
+            <img src="images/TV_nokia.jpg" class="card-img-top" alt="Ecran & Télévision" >
+            <div class="card-body">
+              <h5 class="card-title">Google TV Nokia</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:229,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/television_chiq.webp" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">TV CHIQ android 11 HDR10</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:100.99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Television_samsung.webp" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">Télévision samsung QLED 20 pouce</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:209,99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Television_thomson.webp" class="card-img-top" alt="Ecran & Télévision">
+            <div class="card-body">
+              <h5 class="card-title">Télévision THOMSON 24"HD</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:399,19€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div><br>
+
+      <!-- outils informatique -->
+
+      <div id="outils"></div>
+        <h3><a href="#outils">Accéssoires informatique</a></h3><br>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Adaptateur.webp" class="card-img-top" alt="USB">
+            <div class="card-body">
+              <h5 class="card-title">Adaptateur USB</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:299,90€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart "></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" >
+            <img src="images/Bureau_complet_gameur.jpg" class="card-img-top" alt="Bureau gameur" >
+            <div class="card-body">
+              <h5 class="card-title">Google TV Nokia</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:229,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Ecran_gameur1.webp" class="card-img-top" alt="Ecran">
+            <div class="card-body">
+              <h5 class="card-title">Ecran Gaming 144Hz</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:100.99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Ecran_gaming.webp" class="card-img-top" alt="Ecran_gameur
+            <div class="card-body">
+              <h5 class="card-title">Ecran ASUS gaming/h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:209,99€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <!-- Tech -->
+
+      <div id="outils"></div>
+        <h3><a href="#outils">Technologie</a></h3><br>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Camera_surveillance.jpg" class="card-img-top" alt="Camera">
+            <div class="card-body">
+              <h5 class="card-title">Camera surveillance</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:299,90€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart "></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" >
+            <img src="images/Camera_surveillance1.webp" class="card-img-top" alt="Camera" >
+            <div class="card-body">
+              <h5 class="card-title">Google TV Nokia</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:229,00€</p>
+              <i class="fas fa-heart"></i> <!-- Icône de coeur -->
+              <i class="fas fa-shopping-cart"></i> <!-- Icône de panier d'achat -->
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Ecran_gameur1.webp" class="card-img-top" alt="Ecran">
+            <div class="card-body">
+              <h5 class="card-title">Ecran Gaming 144Hz</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="card-text">Livraison à 24,72 €</p>
+              </div>
+              <p class="card-text">Prix:100.99€</p>
+              <div class="d-flex justify-content-between align-items-center"> 
+                <button class="btn btn-outline-danger btn-sm"> 
+                  <i class="fas fa-heart"></i> 
+                </button> 
+                <button class="btn btn-outline-primary btn-sm"> 
+                  <i class="fas fa-shopping-cart"></i> Ajouter au panier 
+                </button> 
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Ecran_gaming.webp" class="card-img-top" alt="Ecran_gameur">
+            <div class="card-body">
+              <h5 class="card-title">Ecran ASUS gaming</h5>
+              <p class="card-text">Plus de 250 achetés au cours du mois dernier</p>
+              <div class="rating">
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <span class="star"><i class="fas fa-star"></i></span>
+                <p class="text-muted"><small>Livraison à 24,72 €</small> </p>
+              </div>
+              <p class="text-muted"><strong>Prix:209,99€</strong></p>
+              <div class="d-flex justify-content-between align-items-center"> 
+                <button class="btn btn-outline-danger btn-sm"> 
+                  <i class="fas fa-heart"></i> 
+                </button> 
+                <button class="btn btn-outline-primary btn-sm"> 
+                  <i class="fas fa-shopping-cart"></i> Ajouter au panier 
+                </button> 
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col"> <div class="card h-100"> <img src="images/812fzPFyErL._AC_SX425_.jpg" class="card-img-top" alt="Appareil photo"> <div class="card-body"> <h5 class="card-title">Appareil Photo numérique Étanche 4K</h5> <p class="card-text">56MP Autofocus Caméra sous-Marine Carte mémoire 32G Selfie Double écrans 11FT 16X Zoom Appareil Photo Étanche</p> <p class="card-text"><small class="text-muted">Plus de 100 achetés au cours du mois dernier</small></p> <p class="card-text"><small class="text-muted">Livraison à 24,72 €</small></p> <p class="card-text"><strong>Prix : 200,00€</strong></p> <div class="d-flex justify-content-between align-items-center"> <button class="btn btn-outline-danger btn-sm"> <i class="fas fa-heart"></i> </button> <button class="btn btn-outline-primary btn-sm"> <i class="fas fa-shopping-cart"></i> Ajouter au panier </button> </div> </div> </div> </div>
+      </div><br>
+
+    </section>
+
+  
+  
+    <footer class="bg-dark text-white text-center py-2 mt-1">
+      <div class="container">
+          <p>&copy; 2024 Tech Express. Tous droits réservés.</p>
+          <div id="contact">
+              <label for="mail"><strong>Contact email: </strong></label>
+              <a href="mailto:georgegale825@gmail.com">georgegale825@gmail.com</a>
+          </div>
+      </div>
+  </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
